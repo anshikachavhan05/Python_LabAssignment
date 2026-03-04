@@ -1,4 +1,3 @@
-M#atrix Addition and Matrix Multiplication using loops 
 import numpy as np
 matrix1 = np.random.randint(1, 10, (3, 3))
 matrix2 = np.random.randint(1, 10, (3, 3))
@@ -11,4 +10,5 @@ for i in range(3):
     for j in range(3):
         for k in range(3):
             multiplication[i][j] += matrix1[i][k] * matrix2[k][j]
+
 print("\nMatrix Multiplication Result:\n", multiplication)
