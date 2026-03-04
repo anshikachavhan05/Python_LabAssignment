@@ -1,4 +1,3 @@
-#Multiply a 5×3 Matrix by a 3×2 Matrix 
 import numpy as np
 matrix_a = []
 print("Enter elements for 5x3 matrix (3 numbers per row):")
@@ -18,4 +17,5 @@ for i in range(5):
         for k in range(3):
             product[i][j] += matrix_a[i][k] * matrix_b[k][j]
 print("\nProduct Matrix (5x2):")
+
 print(product)
